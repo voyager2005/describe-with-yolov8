@@ -22,7 +22,6 @@ A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultr
 | `detect_image.py` | Analyze a static image and generate a natural language description |
 | `dependency.py`   | Checks YOLOv8 installation and loads model |
 | `images/`         | Folder for test images like `walk.jpg` |
-| `requirements.txt`| List of dependencies |
 
 ---
 
@@ -38,14 +37,7 @@ cd describe-with-yolov8
 You can use venv or conda, your choice.
 
 ```bash
-pip install -r requirements.txt
-```
-
-### 3. Required Python Packages
-If you're setting up manually:
-
-```bash
-pip install ultralytics opencv-python pyttsx3
+pip install ultralytics opencv-python pyttsx3 numpy torch torchvision torchaudio
 ```
 
  Make sure to download the YOLOv8n model if not already present (yolov8n.pt is automatically pulled by ultralytics when you call YOLO("yolov8n.pt")).
@@ -85,7 +77,9 @@ In the image, I see a person close in the center-middle, a chair is far in the t
 **Speech Output:**  
 The system will read the same sentence aloud using your system's text-to-speech engine.
 
-### 🔧 Future Improvements
+### Future Improvements
+- Integrate the system into a hand held device
+- Include multiple cameras for depth detection or sensors to more accuractely detect distance
 - Add quadrant overlays on output images
 - Export descriptions as .txt or .json
 - Support live video stream analysis
