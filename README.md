@@ -93,7 +93,7 @@ The system will read the same sentence aloud using your system's text-to-speech 
 
 ---
 
-###📄 License
+## 📄 License
 This project is for educational and demo purposes.
 
 ---
