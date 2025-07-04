@@ -1,4 +1,4 @@
-# Describe with YOLOv8 🧠
+# Describe with YOLOv8
 
 A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) to detect objects and describe their **spatial position** and **approximate distance** (close/medium/far) using speech synthesis. The system works with both webcam and static images.
 
