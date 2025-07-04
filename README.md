@@ -1,10 +1,10 @@
-# Describe with YOLOv8 🧠🗣️
+# Describe with YOLOv8 🧠
 
 A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) to detect objects and describe their **spatial position** and **approximate distance** (close/medium/far) using speech synthesis. The system works with both webcam and static images.
 
 ---
 
-## 🔍 Features
+##  Features
 
 - Real-time object detection using YOLOv8
 - Spatial localization using a 3x3 grid (e.g., "top-left", "center-middle", "bottom-right")
@@ -14,7 +14,7 @@ A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultr
 
 ---
 
-## 📁 Files
+##  Files
 
 | File              | Description |
 |-------------------|-------------|
@@ -26,7 +26,7 @@ A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultr
 
 ---
 
-## 🖥️ Installation
+##  Installation
 
 ### 1. Clone the repository
 ```bash
@@ -48,13 +48,13 @@ If you're setting up manually:
 pip install ultralytics opencv-python pyttsx3
 ```
 
-💡 Make sure to download the YOLOv8n model if not already present (yolov8n.pt is automatically pulled by ultralytics when you call YOLO("yolov8n.pt")).
+ Make sure to download the YOLOv8n model if not already present (yolov8n.pt is automatically pulled by ultralytics when you call YOLO("yolov8n.pt")).
 
 ---
 
-## 🧪 How to Use
+##  How to Use
 
-### ▶️ Webcam Mode
+###  Webcam Mode
 
 ```bash
 python detect_webcam.py
@@ -65,7 +65,7 @@ Detects objects from a webcam frame
 Outputs spoken description like:  
 "person close center-middle, chair far top-left"
 
-### 🖼️ Static Image Mode
+### Static Image Mode
 Edit the image_folder and image_name in detect_image.py, then run:
 
 ```bash
@@ -76,7 +76,7 @@ Detects and describes objects in a given image
 
 ---
 
-## 🗣️ Example Output
+## Example Output
 
 **Image Description Example:**
 
@@ -93,12 +93,12 @@ The system will read the same sentence aloud using your system's text-to-speech 
 
 ---
 
-## 📄 License
+## License
 This project is for educational and demo purposes.
 
 ---
 
-## ✍️ Author
+## Author
 Akshat G  
 Feel free to connect on [LinkedIn](https://www.linkedin.com/in/akshat-gururaj)
 
