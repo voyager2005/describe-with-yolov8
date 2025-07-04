@@ -29,7 +29,7 @@ A computer vision project that uses [Ultralytics YOLOv8](https://github.com/ultr
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/describe-with-yolov8.git
+git clone https://github.com/voyager2005/describe-with-yolov8.git
 cd describe-with-yolov8
 ```
 
